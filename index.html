@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro to HTML concepts</title>
+    <title>Module 1 HTML Assignment</title>
 </head>
 <body>
-    
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Personal Infomation</legend>
+
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <br>
+            <br>
+            
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Message</legend>
+
+            <textarea name="message" id="message" placeholder="Enter your message here" rows="4" cols="30"></textarea>
+        </fieldset><br>
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
